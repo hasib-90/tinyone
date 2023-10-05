@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+	font-size:16px;
+	scroll-behavior: smooth;
+}
+body{
+    font-size:16px;
+	font-family: 'PT Sans', sans-serif;
+	text-rendering: optimizeLegibility;
+	line-height: 16px;
+}
+ ul{
+     list-style: none;
+     padding-left: 0;
+ }
+a{
+    text-decoration: none;
+}
+/* ====================Header Part Design=============== */
+.head{
+    background: #fcdb00;
+    padding: 3.5rem 0 6.25rem 0; 
+}
+.uphead{
+    margin-bottom: 3.2rem;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.uphead .nav-link{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.carousel-item .text h1, .feature .heading h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.carousel-item .text h5, .afer-head {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1.7rem;
+    line-height: 1.5rem;
+    color: #313841;
+}
+.carousel-item .text p{
+    margin-bottom: 2.2rem;
+    line-height: 1.3rem;
+    font-size: 1rem;
+}
+.carousel-item .icon ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+.carousel-item .icon li{
+    margin-right: 2rem;
+}
+.carousel-item .icon i{
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+}
+.carousel-indicators {
+    bottom: -4.7rem;
+}
+.carousel-indicators [data-bs-target]{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 100%;
+}
+/* ===============Features======== */
+.feature{
+    padding: 7rem 0 4rem 0;
+}
+.feature .lower{
+    margin-top: 5.4rem;
+}
+.lower .text h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+} 
+.lower .text p{
+    line-height: 1.3rem;
+    color: #c4c4c4;
+}
+.lower .icon i{
+    font-size: 3rem;
+}
+.lower .text{
+    margin-bottom: 5.25rem;
+}
+/* ==========Footer section Design=========== */
+.footer{
+    background: #000;
+    padding:5.6rem 0 3.75rem 0;
+}
+.footer h2{
+    color: #fcdb00;
+}
+.footer .mybtn button{
+    background: #fcdb00;
+    font-weight: 700;
+    border: none;
+}
+.footer .icon{
+    margin-top: 4.5rem;
+    margin-bottom: 6.5rem;
+}
+.footer .icon ul{
+    display: flex;
+    justify-content: center;
+}
+.footer .icon ul li i{
+    background-color: #fcdb00;
+    margin-right: .7rem;
+    font-size: 1.4rem;
+    width: 3.4rem;
+    text-align: center;
+    padding:1rem .5rem 1rem .5rem;
+    border-radius: .9rem;
+}
+.footer .last li a, .footer address{
+    color: #bfbfbf;
+    line-height: 1.5rem;
+}
+
+/* ==================Responsive=========== */
+@media only screen and (max-width: 767.99px){
+    .head{
+        padding-top: 1rem;
+    }
+}
